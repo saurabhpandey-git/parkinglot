@@ -318,7 +318,7 @@ class ParkingLotTest {
 
     @Test
     @DisplayName("Attendant who is managing the given Parking Lot in parking slip should be able to unpark the car from it")
-    public void persistParkingLot(){
+    public void persistParkingLot2(){
         ParkingLotOwner owner = new ParkingLotOwner();
         ParkingLot parkingLot1 = new ParkingLot(owner, 10);
         owner.addParkingLot(parkingLot1);
